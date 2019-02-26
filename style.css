@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+body {
+background-image: url("clock-pattern.png");
+font-family: Orbitron;
+box-sizing: border-box;
+}
+
+.main{
+	text-align: center;
+	background-color: #F33434;
+	width: 400px;
+	height: 150px;
+	color: white;
+	position: relative;
+	margin:100px auto;
+}
+.badge{
+	width: 100px;
+	left: 50px;
+	background-color: #F33434;
+	position: absolute;
+	display: block;
+	top: -10%;
+	left: 38%;
+
+}
+.clock{
+	color: black;
+	padding-top: 10px;
+	border:30px solid #A8A1A1;
+	width: auto;
+	font-size: 50px;
+	height: 100%;
+	background-color: #CBC4C4;
+}
